@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcun icon" type="image/png" href="https://openartspace.net/_ipx/img/simon_logo.png"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+
+        <title>Simson Says</title>
+        <link rel="stylesheet" href="assignment-02.css">
+        <script src="assignment-02.js" defer></script>
+    </head>
+    <body>
+
+        <center>
+            <b style="color: blue; font-size: 50px;cursor: default;font-family: 'Orbitron', sans-serif;">S</b>
+            <b style="color: red; font-size: 50px;cursor: default;font-family: 'Orbitron', sans-serif;">i</b>
+            <b style="color: green; font-size: 50px;cursor: default;font-family: 'Orbitron', sans-serif;">m</b>
+            <b style="color: yellow; font-size: 50px;cursor: default;font-family: 'Orbitron', sans-serif;">o</b>
+            <b style="color:greenyellow; font-size: 50px;cursor: default;font-family: 'Orbitron', sans-serif;">n</b>
+            <p></p>
+            <b style="position: relative; color:lightcoral; font-size: 50px; bottom: 30px;cursor: default;font-family: 'Orbitron', sans-serif;">S</b>
+            <b style="position: relative; color:lightseagreen; font-size: 50px; bottom: 30px;cursor: default;font-family: 'Orbitron', sans-serif;">a</b>
+            <b style="position: relative; color:lightgreen; font-size: 50px; bottom: 30px;cursor: default;font-family: 'Orbitron', sans-serif;">y</b>
+            <b style="position: relative; color:lightgoldenrodyellow; font-size: 50px; bottom: 30px;cursor: default;font-family: 'Orbitron', sans-serif;">s</b>
+        </center>
+
+        
+
+                <div class="centerCircle"></div>
+
+           
+
+                <div id="highScore">00</div>
+                <button class="startButton" onclick="lightOn()" >Start</button>
+                <div id="currentScore">00</div>
+
+                <button  class="circle green" id="greenButton" onclick="game(event.currentTarget)"></button>
+                <button class="circle blue" id="blueButton" onclick="game(event.currentTarget)"></button>
+                <button class="circle red" id="redButton" onclick="game(event.currentTarget)"></button>
+                <button class="circle yellow" id="yellowButton" onclick="game(event.currentTarget)"></button>
+
+            
+                <div id="onOff"></div> 
+        
+    </body>
+</html>
